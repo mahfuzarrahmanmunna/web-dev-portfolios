@@ -280,3 +280,17 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     }
     
 }
+
+/* Media Quary for medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner-profile-picture {
+        position: bottom left;
+    }
+}
